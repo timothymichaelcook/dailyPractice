@@ -105,3 +105,16 @@ for num in range (1,10):
         count += 1
         print(num)
 print(f"We have {count} even numbers")
+
+
+#FUNCTIONS
+
+#PARAMETER IS IN THE FUNCTION WITH DEF, first name and last name
+
+def greet(first_name, last_name):
+    print(f"Hello {first_name} {last_name}")
+
+
+#arguments are below, tim and cook, actual value for given parameter
+
+greet("Tim", "Cook")
